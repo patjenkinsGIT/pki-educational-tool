@@ -6,6 +6,8 @@ Cryptography is the practice and study of techniques for secure communication in
 
 ## Symmetric vs. Asymmetric Encryption
 
+![Symmetric vs Asymmetric Encryption](../images/asymmetric-vs-symmetric.png)
+
 ### Symmetric Encryption
 - Uses a single key for both encryption and decryption
 - Generally faster than asymmetric encryption
