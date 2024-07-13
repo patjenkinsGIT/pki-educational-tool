@@ -1,9 +1,11 @@
 # Certificate Authorities
 
 ## Definition of a Certificate Authority (CA)
+
 A Certificate Authority (CA) is a trusted entity responsible for issuing and managing digital certificates. These certificates verify the identity of entities (such as websites, individuals, and organizations) and enable secure, encrypted communications over networks. By providing a trusted third-party validation, CAs play a crucial role in ensuring the integrity and security of digital interactions.
 
 ## Role of CAs in PKI
+
 In a Public Key Infrastructure (PKI), Certificate Authorities serve as the cornerstone for establishing trust. Their primary roles include:
 
 1. **Issuing Digital Certificates**: CAs verify the identity of entities and issue digital certificates that bind a public key with an identity.
@@ -12,6 +14,7 @@ In a Public Key Infrastructure (PKI), Certificate Authorities serve as the corne
 4. **Ensuring Compliance and Governance**: CAs adhere to strict security standards and policies to maintain the integrity and trustworthiness of the PKI.
 
 ## Types of CAs (Root CAs, Intermediate CAs)
+
 CAs are categorized based on their position and function within the PKI hierarchy:
 
 ![CA Hierrchy](../Images/ca-hierarchies.png)
@@ -31,6 +34,7 @@ CAs are categorized based on their position and function within the PKI hierarch
    - Often used to manage certificates within specific domains or organizations.
 
 ## CA Hierarchies
+
 A CA hierarchy is a structure of multiple CAs organized to enhance security and manageability. The common hierarchical models include:
 
 1. **Single CA**:
@@ -46,6 +50,7 @@ A CA hierarchy is a structure of multiple CAs organized to enhance security and 
    - Provides further compartmentalization and enhances security by limiting the scope of each CA.
 
 ## Process of Certificate Issuance by a CA
+
 The process of issuing a certificate by a CA involves several steps:
 
 1. **Certificate Signing Request (CSR)**:
